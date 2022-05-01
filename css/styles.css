@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+.boss{
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 1200px;
+}
+
+.boss .sidebar {
+    background-color:  #1E2939;
+    position: relative;
+   
+    width: 370px;
+    height: 1390px;
+    padding-top:   40px;
+   
+}
+.boss .sidebar .sideb_el {
+  
+    margin-top: 50px;
+   margin-left: 40px; 
+    font-family: 'Montserrat';
+    font-style: normal;
+   font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.boss .sidebar .sideb_el h3 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 10px;
+}
+.boss .sidebar .sideb_el p { 
+    margin-bottom: -10px;
+}
+.boss .sidebar .sideb_el a {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.boss .sidebar .sideb_el span {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 10px;
+}
+    .boss .sidebar .sideb_el ul {
+    margin-left: -10px;
+}
+.boss .sidebar .sideb_el li::marker {
+     color: #FB6D3A 
+ }
+.boss .right {
+   
+    position: relative;
+
+    width: 870px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 85px 90px;
+   
+}
+.boss .right h1{
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        color: #000000;
+        margin-bottom: 25px;
+    
+}
+.boss .right h3 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        margin-bottom: 10px;
+}
+.boss .right h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.boss .right h5 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+
+            box-sizing: border-box;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            margin-bottom: 10px;
+}
+.boss .right .about {
+
+    position: relative;
+    width: 400px;
+    height: 230px;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.boss .right .projects{
+    position: relative;
+    width: 485px;
+    height: 105px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;   
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+.boss .right .projects ol{
+    margin-left: -20px;
+    
+}
+.boss .right .work ul {
+    margin-left: -20px;
+
+}
+.boss .right .projects li::marker {
+    color: #000000;
+    font-weight: 700;
+}
+.boss .right .projects li {
+  margin-bottom: 2px;
+}
+.boss .right .work li {
+    margin-bottom: 5px;
+}
+.boss .right .projects a {
+   margin-left: 5px;
+    color: #595959;
+    opacity: 0.5;
+}
+.boss .right .projects b {
+    color: #000000;
+}
+
+.boss .right .work {
+margin-top: 0px;
+    position: relative;
+    width: 525px;
+    height: 520px;
+        margin-bottom: 50px;
+}
+.boss .right .work span{
+  color: #FB6D3A;
+}   
+.boss .right p {
+   
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.boss .right .education {
+    position: relative;
+    width: 400px;
+    height: 270px;
+    margin-top: 0px;
+}
+.boss .right .education span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+.boss .right .education h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  
+}
